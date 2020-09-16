@@ -1,0 +1,40 @@
+@import url("https://use.typekit.net/zug0cxs.css");
+
+* { 
+    font-family: athelas, serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; 
+}
+
+header {
+    background-color: #41393D;
+    color: #8A8C8F;
+    text-align: center;
+    padding: 14px 0px;
+}
+
+nav {
+    background-color: #41393D;
+    padding: 14px 0px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    padding: 8px;
+}
+
+nav ul li a {
+    color: #D7E4C2;
+    text-decoration: none;
+}
