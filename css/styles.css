@@ -4,13 +4,16 @@
     font-family: athelas, serif;
     font-style: normal;
     font-weight: 400;
+    letter-spacing: 1.5px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #D7E4C2;
 }
 
 html, body {
     height: 100%; 
+    background-color: #41393D;
 }
 
 header {
@@ -23,18 +26,91 @@ header {
 nav {
     background-color: #41393D;
     padding: 14px 0px;
+    text-align: right;
+    
 }
 
 nav ul {
     list-style-type: none;
+    padding-right: 15vw;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     padding: 8px;
 }
 
 nav ul li a {
     color: #D7E4C2;
     text-decoration: none;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.logo {
+    width: 400px;
+    box-shadow: none;
+}
+
+img {
+    width: 300px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    width: 75vw;
+    margin: auto;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.main-body {
+    padding: 2.5em 5em;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20vw;
+}
+
+.body-block {
+    display: flex;
+    margin: 30px auto;
+}
+
+.block-text {
+    margin: 75px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.menu-buttons {
+    align-self: flex-end;
+}
+
+button {
+    margin: 1rem;
+    padding: 10px 0px;
+    border-radius: 8px;
+    background-color: #be1e2d;
+    box-shadow: -3px 3px  black;
+    width: 200px;
+}
+
+
+img {
+    box-shadow: -5px 5px 10px black;
+}
+
+img:hover {
+    box-shadow: -10px 10px 20px #be1e2d;
+    transition: 1s;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
