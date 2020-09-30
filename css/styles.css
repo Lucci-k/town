@@ -87,6 +87,15 @@ hr {
 
 .menu-buttons {
     align-self: flex-end;
+    margin: 1rem;
+    padding: 10px 0px;
+    border-radius: 8px;
+    background-color: #be1e2d;
+    box-shadow: -3px 3px  black;
+    width: 200px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
 }
 
 button {
@@ -96,6 +105,7 @@ button {
     background-color: #be1e2d;
     box-shadow: -3px 3px  black;
     width: 200px;
+    cursor: pointer;
 }
 
 
