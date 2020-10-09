@@ -11,6 +11,10 @@
     color: #D7E4C2;
 }
 
+p {
+    font-size: 20px;
+}
+
 html, body {
     height: 100%; 
     background-color: #41393D;
@@ -47,13 +51,13 @@ nav ul li a {
     font-weight: 700;
 }
 
+nav ul li a:hover {
+    color: black;
+}
+
 .logo {
     width: 400px;
     box-shadow: none;
-}
-
-img {
-    width: 300px;
 }
 
 hr {
@@ -68,7 +72,7 @@ hr {
     padding: 2.5em 5em;
     display: flex;
     flex-direction: column;
-    margin: 0px 20vw;
+    margin: 50px 20vw;
 }
 
 .body-block {
@@ -98,6 +102,19 @@ hr {
     text-align: center;
 }
 
+.about-block {
+    margin: 30px 0px;
+}
+
+.about-block div {
+    display: inline-block;
+}
+
+.about-block div p {
+    margin: 30px 30px;
+}
+
+
 button {
     margin: 1rem;
     padding: 10px 0px;
@@ -109,18 +126,38 @@ button {
 }
 
 
-img {
+.block-img {
     box-shadow: -5px 5px 10px black;
 }
 
-img:hover {
+.block-img:hover {
     box-shadow: -10px 10px 20px #be1e2d;
     transition: 1s;
 }
 
+.about-img {
+    width: 500px;
+    margin: 30px 30px 30px 0px;
+    box-shadow: -5px 5px 10px black;
+    float: left;
+}
+
+.menu {
+    width: 50vw;
+    margin: 30px auto;
+}
 
 footer {
     text-align: center;
     margin-top: 80px;
     margin-bottom: 40px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 20px;
 }
